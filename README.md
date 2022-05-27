@@ -1,2 +1,1 @@
-So far all these scripts are needed to allow certian features of my build of dwm to work
-Make them executable
+So far all these scripts are needed to allow certian features of my build of dwm to work, make them executable
