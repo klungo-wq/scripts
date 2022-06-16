@@ -1,6 +1,6 @@
 #!/bin/sh
 
-chosen=$(echo -e "Restart\nPoweroff\nSleep\nCancel" | dmenu -i -p "Choose one of the follwing:")
+chosen=$(echo -e "Restart\nPoweroff\nSleep\nCancel" | dmenu -i -l 4 -p "Choose one of the follwing:")
 
 if [[ $chosen = "Restart" ]]; then 
 	systemctl reboot
