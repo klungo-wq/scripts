@@ -1,5 +1,6 @@
 #!/bin/bash
 
+echo "###Fedora Linux Tool###"
 echo "Please select an option:"
 echo "1) Update System"
 echo "2) Clean orphan packages"
