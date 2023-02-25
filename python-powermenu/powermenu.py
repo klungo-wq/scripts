@@ -29,4 +29,5 @@ Shutdown.place(x=700, y=70)
 Leave = Button(window, text="Exit", bg = "#1B2229", fg = "#C678DD", highlightbackground= "#61AFEF", activebackground = "#282c34", activeforeground = "#E06C75", width=10, height=2, command=window.destroy)
 Leave.place(x=1000, y=70)
 
+window.after(3000,lambda:window.destroy)
 window.mainloop()
