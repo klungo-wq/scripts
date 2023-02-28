@@ -1,0 +1,9 @@
+#!/bin/bash
+
+echo "How many did you do: "
+read input_text
+
+echo "$input_text" >> time.txt
+
+echo "Appended.."
+echo "$input_text" to time.txt

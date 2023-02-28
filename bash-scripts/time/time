@@ -1,0 +1,30 @@
+#!/bin/bash
+
+echo "What would you like to do:"
+echo "1) Append Time"
+echo "2) List appended time"
+echo "3) Remove existing time "
+echo "4) Quit"
+
+read -p "Enter your choice: " choice
+
+case $choice in
+  1)
+    sh ./time1
+    ;;
+  2)
+    cat ./time.txt
+    ;;
+  3)
+    rm ./time.txt && touch time.txt
+    ;;
+  4)
+    echo "Quitting."
+    exit 0
+    ;;
+  *)
+    echo "Invalid choice. Try again."
+    ;;
+esac
+
+
