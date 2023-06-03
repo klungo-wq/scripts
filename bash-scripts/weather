@@ -1,0 +1,3 @@
+#!/bin/bash
+
+hyper -e curl wttr.in
